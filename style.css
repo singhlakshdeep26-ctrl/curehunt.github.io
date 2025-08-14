@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6fafd;
+    color: #1a2233;
+}
+header {
+    background: linear-gradient(90deg, #0f4c81 60%, #38b6ff 100%);
+    color: #fff;
+    padding: 2rem 0 1.2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(15,76,129,0.08);
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+    letter-spacing: 2px;
+}
+.tagline {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #e0f7fa;
+}
+nav a {
+    color: #fff;
+    margin: 0 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #ffd700;
+}
+main {
+    max-width: 800px;
+    margin: 2.5rem auto 2rem auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(15,76,129,0.07);
+    padding: 2.5rem 2rem;
+}
+section {
+    margin-bottom: 2.5rem;
+}
+section h2 {
+    color: #0f4c81;
+    margin-bottom: 0.7rem;
+}
+ul {
+    padding-left: 1.2rem;
+}
+footer {
+    text-align: center;
+    padding: 1.2rem 0;
+    background: #0f4c81;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+@media (max-width: 700px) {
+    main {
+        padding: 1.2rem 0.5rem;
+    }
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .tagline {
+        font-size: 1rem;
+    }
+}
